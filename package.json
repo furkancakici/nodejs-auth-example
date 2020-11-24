@@ -1,0 +1,28 @@
+{
+   "name": "nodejs-auth-example",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "start": "cross-env NODE_ENV=production node -r esm app",
+      "dev": "cross-env NODE_ENV=development nodemon -r esm app"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcrypt": "^5.0.0",
+      "cookie-parser": "^1.4.5",
+      "dotenv": "^8.2.0",
+      "ejs": "^3.1.5",
+      "esm": "^3.2.25",
+      "express": "^4.17.1",
+      "express-ejs-layouts": "^2.5.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.10.11",
+      "validator": "^13.1.17"
+   },
+   "devDependencies": {
+      "cross-env": "^7.0.2"
+   }
+}
